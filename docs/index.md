@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="dist/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Binangonan Rural Bank Inc.</title>
 </head>
 
@@ -22,25 +22,23 @@
     <div class="modal-content">
       <div id="btnClose" class="close">+</div>
       <a href="/">
-        <img src="/images/headoffice/brbpopup.png">
+        <img src="assets/images/brbpopup.png">
       </a>
     </div>
   </div>
   <div class="mainbg">
-
     <header class="header">
       <div class="overlay has-fade">
       </div>
       <nav class="container--pall flex flex-jc-sb flex-ai-c">
         <a href="/" class="header__logo">
-          <img src="/images/headoffice/circle_brb_logo.png" alt="Binangonan Rural Bank">
+          <img src="/images/circle_brb_logo.png" alt="Binangonan Rural Bank">
         </a>
         <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
           <span></span>
           <span></span>
           <span></span>
         </a>
-
         <div class="header__links hide-for-mobile">
           <a href="#">Home</a>
           <a href="#">About Us</a>
@@ -48,7 +46,6 @@
           <a href="#">Loans</a>
         </div>
       </nav>
-
       <div class="header__menu has-fade">
         <a href="#">Home</a>
         <a href="#">About</a>
@@ -114,7 +111,6 @@
       </p>
     </div>
   </div>
-
   <div class="whowearebg">
     <div class="whoweare container flex flex-fw-w flex-ai-c flex-jc-c">
       <div class="whoweare__text container--brbtext">
@@ -273,7 +269,7 @@
     <div class="feature container">
       <div class="feature__item">
         <div class="feature__icon">
-          <img src="/images/headoffice/featureicon1.png">
+          <img src="/images/featureicon1.png">
         </div>
         <div class="feature__desc">
           <h1>Agricultural</h1>
@@ -282,7 +278,7 @@
       </div>
       <div class="feature__item">
         <div class="feature__icon">
-          <img src="/images/headoffice/featureicon2.png">
+          <img src="/images/featureicon2.png">
         </div>
         <div class="feature__desc">
           <h1>Agricultural</h1>
@@ -291,7 +287,7 @@
       </div>
       <div class="feature__item">
         <div class="feature__icon">
-          <img src="/images/headoffice/featureicon3.png">
+          <img src="/images/featureicon3.png">
         </div>
         <div class="feature__desc">
           <h1>Agricultural</h1>
@@ -300,7 +296,7 @@
       </div>
       <div class="feature__item">
         <div class="feature__icon">
-          <img src="/images/headoffice/featureicon4.png">
+          <img src="/images/featureicon4.png">
         </div>
         <div class="feature__desc">
           <h1>Agricultural</h1>
@@ -313,7 +309,7 @@
 
 <body>
 
-  <script src="app/js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
