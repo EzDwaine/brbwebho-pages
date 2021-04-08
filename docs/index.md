@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
-  <!-- Font Source -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -17,7 +13,7 @@
   <title>Binangonan Rural Bank Inc.</title>
 </head>
 
-<main>
+<body>
   <div class="bg-modal">
     <div class="modal-content">
       <div id="btnClose" class="close">+</div>
@@ -305,9 +301,7 @@
       </div>
     </div>
   </div>
-</main>
 
-<body>
 
   <script src="assets/js/script.js"></script>
 </body>
