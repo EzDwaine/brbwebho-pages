@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/dist/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <title>Binangonan Rural Bank Inc.</title>
 </head>
 
