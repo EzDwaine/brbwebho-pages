@@ -1,0 +1,133 @@
+.avatar {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.avatar_card {
+    flex: 1 100%;
+    // flex: 1 50%;
+    // align-items: center;
+
+    @include breakpoint-up(large) {
+        flex: 1 0 50%;
+        padding-top: 10.5rem;
+    }
+}
+.avatar_card_2 {
+    padding: 4%;
+    flex: 1 46%;
+
+    @include breakpoint-up(large) {
+        padding-bottom: 5%;
+        flex: 1 29%;
+    }
+}
+.avatar_img_leah {
+    // background-image: url("/images/headoffice/leahfelisatfaustino.png");
+    // background-size: contain;
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    // max-width: 100%;
+    // min-height: 518px;
+    background-image: url("/images/headoffice/leahfelisatfaustino.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 11.1875rem;
+
+    @include breakpoint-up(large) {
+        min-height: 31.875rem;
+    }
+}
+.avatar_img_ken {
+    background-image: url("/images/headoffice/kennethstan.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 11.1875rem;
+
+    @include breakpoint-up(large) {
+        min-height: 31.875rem;
+    }
+}
+.avatar_img_zeus {
+    background-image: url("/images/headoffice/attyzeusblibrojo.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 7.625rem;
+    @include breakpoint-up(large) {
+        min-height: 18.3125rem;
+    }
+}
+.avatar_img_ray {
+    background-image: url("/images/headoffice/raysparks.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 7.625rem;
+    @include breakpoint-up(large) {
+        min-height: 18.3125rem;
+    }
+}
+.avatar_img_eric {
+    background-image: url("/images/headoffice/ericjseverino.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 7.625rem;
+    @include breakpoint-up(large) {
+        min-height: 18.3125rem;
+    }
+}
+.avatar_img_gen {
+    background-image: url("/images/headoffice/genandodeleon.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 7.625rem;
+    @include breakpoint-up(large) {
+        min-height: 18.3125rem;
+    }
+}
+.avatar_img_vac {
+    background-image: url("/images/headoffice/joel.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 7.625rem;
+
+    @include breakpoint-up(large) {
+        min-height: 18.3125rem;
+    }
+}
+.avatar_img_ars {
+    background-image: url("/images/headoffice/arseniatomas.png  ");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 7.625rem;
+
+    @include breakpoint-up(large) {
+        min-height: 18.3125rem;
+    }
+}
+.avatar_info {
+    margin-top: auto;
+    text-align: center;
+    h3 {
+        font-size: 0.625rem;
+    }
+    h4 {
+        font-size: 0.5625rem;
+    }
+
+    @include breakpoint-up(large) {
+        h3 {
+            font-size: 1.25rem;
+        }
+        h4 {
+            font-size: 1.125rem;
+        }
+    }
+}

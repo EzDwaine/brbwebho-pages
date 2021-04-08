@@ -1,0 +1,53 @@
+.whoweare {
+    h1 {
+        font-size: 4rem;
+        color: $cream;
+    }
+    &__text {
+        flex: 1 0 100%;
+        text-align: right;
+    }
+
+    &__img {
+        // flex: 1;
+        // order: 1;
+        // position: relative;
+        // background-image: url("/images/headoffice/circle_brb_logo.png");
+        // background-size: contain;
+        // background-position: center center;
+        // background-repeat: no-repeat;
+        // width: 50%;
+        // min-height: 700px;
+        // flex: 1;
+        flex: 1 0 50%;
+        background-image: url("/images/headoffice/circle_brb_logo.png");
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        min-height: 15.4375rem;
+
+        @include breakpoint-up(large) {
+            background-image: url("/images/headoffice/brb-logo1.png");
+            min-height: 31.875rem;
+        }
+    }
+    &__p {
+        text-align: justify;
+        flex: 1 100%;
+        order: 2;
+        color: $cream;
+
+        @include breakpoint-up(large) {
+            font-size: 1rem;
+            flex: 1 0 45%;
+            padding-right: 5%;
+        }
+
+        @include breakpoint-up(larger) {
+            padding-top: 5rem;
+            font-size: 1.2rem;
+            flex: 1 0 45%;
+            padding-right: 5%;
+        }
+    }
+}

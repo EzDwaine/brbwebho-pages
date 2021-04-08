@@ -1,0 +1,10 @@
+.ourteam {
+    h1 {
+        font-size: 4rem;
+        color: $cream;
+
+        @include breakpoint-up(larger) {
+            padding-bottom: 1rem;
+        }
+    }
+}

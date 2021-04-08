@@ -1,0 +1,31 @@
+.hero {
+    h1 {
+        color: $green;
+        font-family: "Libre Baskerville", serif;
+    }
+    &__text {
+        flex: 1 100%;
+    }
+
+    &__p {
+        order: 2;
+        flex: 1 0 30%;
+        text-align: left;
+        color: $gray;
+    }
+
+    &__image {
+        order: 3;
+        flex: 1 0 50%;
+        background-image: url("/images/headoffice/50yrs_hero.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 11.75rem;
+
+        @include breakpoint-up(large) {
+            min-height: 31.875rem;
+            background-size: 80%;
+        }
+    }
+}

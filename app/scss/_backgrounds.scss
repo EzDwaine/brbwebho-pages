@@ -1,0 +1,82 @@
+.mainbg {
+    background-image: url("/images/mobile/mobilebg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+
+    @include breakpoint-up(large) {
+        background-image: url("/images/headoffice/orangebird-landingpage-edited.png");
+    }
+}
+.historybg {
+    background-image: url("/images/mobile/mobile-website-binangonan-rural-bank-07-edited.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    min-height: 100vh;
+    @include breakpoint-up(large) {
+        background-image: url("/images/headoffice/website-binangonan-rural-bank-02.png");
+    }
+}
+.whowearebg {
+    background-image: url("/images/mobile/mobile-website-binangonan-rural-bank-08-edited.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+
+    @include breakpoint-up(large) {
+        background-image: url("/images/headoffice/website-binangonan-rural-bank-03-edited.png");
+    }
+}
+.ourteambg {
+    background-image: url("/images/mobile/mobile-website-binangonan-rural-bank-11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+
+    @include breakpoint-up(large) {
+        background-image: url("/images/headoffice/website-binangonan-rural-bank-04.png");
+    }
+}
+.lastbg {
+    background-image: url("/images/mobile/mobile-website-binangonan-rural-bank-05.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+    @include breakpoint-up(large) {
+        background-image: url("/images/headoffice/website-binangonan-rural-bank-05.png");
+    }
+}
+
+.depositbg {
+    background-image: url("/images/headoffice/addlbg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+}
+.missionbg {
+    background-image: url("/images/headoffice/addlbg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+}
+.certdeptbg {
+    background-image: url("/images/headoffice/addlbg3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+}
+.featurebg {
+    background-image: url("/images/headoffice/addlbg4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+}

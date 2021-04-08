@@ -1,0 +1,20 @@
+.feature {
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__icon {
+        padding: 1%;
+    }
+
+    &__desc {
+        flex: 1 0 80%;
+        h1 {
+            padding-bottom: 0.5rem;
+        }
+        p {
+            font-size: 1.3rem;
+        }
+    }
+}

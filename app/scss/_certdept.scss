@@ -1,0 +1,22 @@
+.certdept {
+    padding-top: 20rem;
+    &__text {
+        padding-right: 10%;
+        flex: 1 0 40%;
+        h1 {
+            font-size: 3rem;
+        }
+        p {
+            font-size: 1.3rem;
+        }
+    }
+
+    &__img {
+        background-image: url("/images/headoffice/addtlasset3.png");
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        flex: 1 0 50%;
+        min-height: 43.75rem;
+    }
+}

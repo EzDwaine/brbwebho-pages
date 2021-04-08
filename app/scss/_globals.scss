@@ -1,0 +1,202 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: $font-sm;
+    line-height: 1.3;
+    &.noscroll {
+        overflow: hidden;
+    }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0px;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    line-height: 1;
+    color: $green;
+    font-weight: 300px;
+}
+.creamcolortext {
+    color: $cream;
+
+    @include breakpoint-up(small) {
+        color: $green;
+    }
+
+    @include breakpoint-up(large) {
+        color: $cream;
+    }
+}
+a {
+    font-weight: 1000px;
+}
+p {
+    display: inline-block;
+}
+.container {
+    // max-width: 74.125rem;
+    max-width: 90rem;
+    margin: 0 auto;
+
+    &--ava {
+        padding: 8rem 0 0 0;
+    }
+    &--wwa {
+        padding-right: 3rem;
+    }
+
+    &--herop {
+        @include breakpoint-up(small) {
+            padding-top: 1.375rem;
+            padding-bottom: 1.375rem;
+        }
+        padding-top: 1.375rem;
+        padding-right: 4rem;
+        padding-bottom: 1.375rem;
+        padding-left: 4rem;
+    }
+    &--nopl {
+        padding-top: 1.375rem;
+        padding-right: 1.5rem;
+        padding-bottom: 1.375rem;
+    }
+
+    &--noplnopt {
+        padding-right: 1.5rem;
+        padding-bottom: 1.375rem;
+    }
+    &--brbtext {
+        padding-top: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 1.375rem;
+        padding-left: 1.5rem;
+    }
+    &--histotitle {
+        padding-top: 2.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 1.375rem;
+        padding-left: 1.5rem;
+    }
+    &--pall {
+        @include breakpoint-up(small) {
+            padding: 0;
+        }
+        @include breakpoint-up(large) {
+        }
+    }
+    &--py {
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+
+        @include breakpoint-up(large) {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+    }
+    &--px {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+    &--pt {
+        padding-top: 1.375rem;
+
+        @include breakpoint-up(large) {
+            padding-top: 5.5rem;
+        }
+    }
+    &--depopt {
+        padding-top: 1.375rem;
+
+        @include breakpoint-up(large) {
+            padding-top: 7.5rem;
+        }
+    }
+    &--pr {
+        padding-right: 1.5rem;
+    }
+    &--pb {
+        padding-bottom: 1.375rem;
+
+        @include breakpoint-up(large) {
+            padding-bottom: 6rem;
+        }
+    }
+    &--pl {
+        padding-left: 1.5rem;
+    }
+}
+
+.whoweare-container {
+    flex-grow: 1;
+}
+
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+//Flexbox
+.flex {
+    display: flex;
+
+    &-ai-fe {
+        align-items: flex-end;
+    }
+    &-fd-c {
+        flex-direction: column;
+    }
+
+    &-jc-sb {
+        justify-content: space-between;
+    }
+    &-jc-sa {
+        justify-content: space-around;
+    }
+
+    &-jc-c {
+        justify-content: center;
+    }
+
+    &-ai-c {
+        align-items: center;
+    }
+    &-fw-w {
+        flex-wrap: wrap;
+    }
+}
+
+button,
+.button {
+    padding: 1 rem 1.875rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.hide-for-mobile {
+    @include breakpoint-down(medium) {
+        display: none;
+    }
+}
+
+.hide-for-desktop {
+    @include breakpoint-up(large) {
+        display: none;
+    }
+}
