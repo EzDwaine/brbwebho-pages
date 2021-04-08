@@ -1,5 +1,5 @@
 .mainbg {
-  background-image: url("/assets/images/mobilebg1.png");
+  background-image: url("docs/assets/images/mobilebg1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -8,12 +8,12 @@
 
 @media (min-width: 64em) {
   .mainbg {
-    background-image: url("/assets/images/orangebird-landingpage-edited.png");
+    background-image: url("docs/assets/images/orangebird-landingpage-edited.png");
   }
 }
 
 .historybg {
-  background-image: url("/assets/images/website-binangonan-rural-bank-07-edited.png");
+  background-image: url("docs/assets/images/website-binangonan-rural-bank-07-edited.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top left;
@@ -22,12 +22,12 @@
 
 @media (min-width: 64em) {
   .historybg {
-    background-image: url("/assets/images/website-binangonan-rural-bank-02.png");
+    background-image: url("docs/assets/images/website-binangonan-rural-bank-02.png");
   }
 }
 
 .whowearebg {
-  background-image: url("/assets/images/mobile-website-binangonan-rural-bank-08-edited.png");
+  background-image: url("docs/assets/images/mobile-website-binangonan-rural-bank-08-edited.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -36,12 +36,12 @@
 
 @media (min-width: 64em) {
   .whowearebg {
-    background-image: url("/assets/images/website-binangonan-rural-bank-03-edited.png");
+    background-image: url("docs/assets/images/website-binangonan-rural-bank-03-edited.png");
   }
 }
 
 .ourteambg {
-  background-image: url("/assets/images/mobile-website-binangonan-rural-bank-11.png");
+  background-image: url("docs/assets/images/mobile-website-binangonan-rural-bank-11.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -50,12 +50,12 @@
 
 @media (min-width: 64em) {
   .ourteambg {
-    background-image: url("/assets/images/website-binangonan-rural-bank-04.png");
+    background-image: url("docs/assets/images/website-binangonan-rural-bank-04.png");
   }
 }
 
 .lastbg {
-  background-image: url("/assets/images/mobile-website-binangonan-rural-bank-05.png");
+  background-image: url("docs/assets/images/mobile-website-binangonan-rural-bank-05.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -64,12 +64,12 @@
 
 @media (min-width: 64em) {
   .lastbg {
-    background-image: url("/assets/images/website-binangonan-rural-bank-05.png");
+    background-image: url("docs/assets/images/website-binangonan-rural-bank-05.png");
   }
 }
 
 .depositbg {
-  background-image: url("/assets/images/addlbg1.png");
+  background-image: url("docs/assets/images/addlbg1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -77,7 +77,7 @@
 }
 
 .missionbg {
-  background-image: url("/assets/images/addlbg2.png");
+  background-image: url("docs/assets/images/addlbg2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -85,7 +85,7 @@
 }
 
 .certdeptbg {
-  background-image: url("/assets/images/addlbg3.png");
+  background-image: url("docs/assets/images/addlbg3.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -93,7 +93,7 @@
 }
 
 .featurebg {
-  background-image: url("/assets/images/addlbg4.png");
+  background-image: url("docs/assets/images/addlbg4.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -566,7 +566,7 @@ button,
   -webkit-box-flex: 1;
       -ms-flex: 1 0 50%;
           flex: 1 0 50%;
-  background-image: url("/assets/images/50yrs_hero.png");
+  background-image: url("docs/assets/images/50yrs_hero.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -623,7 +623,7 @@ button,
   -webkit-box-flex: 1;
       -ms-flex: 1 0 50%;
           flex: 1 0 50%;
-  background-image: url("/assets/images/circle_brb_logo.png");
+  background-image: url("docs/assets/images/circle_brb_logo.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -632,7 +632,7 @@ button,
 
 @media (min-width: 64em) {
   .whoweare__img {
-    background-image: url("/assets/images/brb-logo1.png");
+    background-image: url("docs/assets/images/brb-logo1.png");
     min-height: 31.875rem;
   }
 }
@@ -721,7 +721,7 @@ button,
 }
 
 .avatar_img_leah {
-  background-image: url("/assets/images/leahfelisatfaustino.png");
+  background-image: url("docs/assets/images/leahfelisatfaustino.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -735,7 +735,7 @@ button,
 }
 
 .avatar_img_ken {
-  background-image: url("/assets/images/kennethstan.png");
+  background-image: url("docs/assets/images/kennethstan.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -749,7 +749,7 @@ button,
 }
 
 .avatar_img_zeus {
-  background-image: url("/assets/images/attyzeusblibrojo.png");
+  background-image: url("docs/assets/images/attyzeusblibrojo.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -763,7 +763,7 @@ button,
 }
 
 .avatar_img_ray {
-  background-image: url("/assets/images/raysparks.png");
+  background-image: url("docs/assets/images/raysparks.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -777,7 +777,7 @@ button,
 }
 
 .avatar_img_eric {
-  background-image: url("/assets/images/ericjseverino.png");
+  background-image: url("docs/assets/images/ericjseverino.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -791,7 +791,7 @@ button,
 }
 
 .avatar_img_gen {
-  background-image: url("/assets/images/genandodeleon.png");
+  background-image: url("docs/assets/images/genandodeleon.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -805,7 +805,7 @@ button,
 }
 
 .avatar_img_vac {
-  background-image: url("/assets/images/joel.jpg");
+  background-image: url("docs/assets/images/joel.jpg");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -819,7 +819,7 @@ button,
 }
 
 .avatar_img_ars {
-  background-image: url("/assets/images/arseniatomas.png  ");
+  background-image: url("docs/assets/images/arseniatomas.png  ");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -908,7 +908,7 @@ button,
 }
 
 .deposit__image {
-  background-image: url("/assets/images/addtlasset1.png");
+  background-image: url("docs/assets/images/addtlasset1.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -926,7 +926,7 @@ button,
   -webkit-box-flex: 1;
       -ms-flex: 1 0 40%;
           flex: 1 0 40%;
-  background-image: url("/assets/images/addtlasset2.png");
+  background-image: url("docs/assets/images/addtlasset2.png");
   background-size: contain;
   background-position: left center;
   background-repeat: no-repeat;
@@ -968,7 +968,7 @@ button,
 }
 
 .certdept__img {
-  background-image: url("/assets/images/addtlasset3.png");
+  background-image: url("docs/assets/images/addtlasset3.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
