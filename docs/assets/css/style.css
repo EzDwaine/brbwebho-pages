@@ -566,7 +566,7 @@ button,
   -webkit-box-flex: 1;
       -ms-flex: 1 0 50%;
           flex: 1 0 50%;
-  background-image: url("/assets/images/50yrs_hero.png");
+  background-image: url("/images/50yrs_hero.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -623,7 +623,7 @@ button,
   -webkit-box-flex: 1;
       -ms-flex: 1 0 50%;
           flex: 1 0 50%;
-  background-image: url("/assets/images/circle_brb_logo.png");
+  background-image: url("/images/circle_brb_logo.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -632,7 +632,7 @@ button,
 
 @media (min-width: 64em) {
   .whoweare__img {
-    background-image: url("/assets/images/brb-logo1.png");
+    background-image: url("/images/brb-logo1.png");
     min-height: 31.875rem;
   }
 }
@@ -721,7 +721,7 @@ button,
 }
 
 .avatar_img_leah {
-  background-image: url("/assets/images/leahfelisatfaustino.png");
+  background-image: url("/images/leahfelisatfaustino.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -735,7 +735,7 @@ button,
 }
 
 .avatar_img_ken {
-  background-image: url("/assets/images/kennethstan.png");
+  background-image: url("/images/kennethstan.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -749,7 +749,7 @@ button,
 }
 
 .avatar_img_zeus {
-  background-image: url("/assets/images/attyzeusblibrojo.png");
+  background-image: url("/images/attyzeusblibrojo.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -763,7 +763,7 @@ button,
 }
 
 .avatar_img_ray {
-  background-image: url("/assets/images/raysparks.png");
+  background-image: url("/images/raysparks.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -777,7 +777,7 @@ button,
 }
 
 .avatar_img_eric {
-  background-image: url("/assets/images/ericjseverino.png");
+  background-image: url("/images/ericjseverino.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -791,7 +791,7 @@ button,
 }
 
 .avatar_img_gen {
-  background-image: url("/assets/images/genandodeleon.png");
+  background-image: url("/images/genandodeleon.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -805,7 +805,7 @@ button,
 }
 
 .avatar_img_vac {
-  background-image: url("/assets/images/joel.jpg");
+  background-image: url("/images/joel.jpg");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -819,7 +819,7 @@ button,
 }
 
 .avatar_img_ars {
-  background-image: url("/assets/images/arseniatomas.png  ");
+  background-image: url("/images/arseniatomas.png  ");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -908,7 +908,7 @@ button,
 }
 
 .deposit__image {
-  background-image: url("/assets/images/addtlasset1.png");
+  background-image: url("/images/addtlasset1.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -926,7 +926,7 @@ button,
   -webkit-box-flex: 1;
       -ms-flex: 1 0 40%;
           flex: 1 0 40%;
-  background-image: url("/assets/images/addtlasset2.png");
+  background-image: url("/images/addtlasset2.png");
   background-size: contain;
   background-position: left center;
   background-repeat: no-repeat;
@@ -968,7 +968,7 @@ button,
 }
 
 .certdept__img {
-  background-image: url("/assets/images/addtlasset3.png");
+  background-image: url("/images/addtlasset3.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
