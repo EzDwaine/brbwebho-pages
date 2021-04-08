@@ -1,5 +1,5 @@
 .mainbg {
-  background-image: url("/assets/images/mobilebg1.png");
+  background-image: url("/images/mobilebg1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -8,12 +8,12 @@
 
 @media (min-width: 64em) {
   .mainbg {
-    background-image: url("/assets/images/orangebird-landingpage-edited.png");
+    background-image: url("/images/orangebird-landingpage-edited.png");
   }
 }
 
 .historybg {
-  background-image: url("/assets/assets/images-website-binangonan-rural-bank-07-edited.png");
+  background-image: url("/images-website-binangonan-rural-bank-07-edited.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top left;
@@ -22,12 +22,12 @@
 
 @media (min-width: 64em) {
   .historybg {
-    background-image: url("/assets/images/website-binangonan-rural-bank-02.png");
+    background-image: url("/images/website-binangonan-rural-bank-02.png");
   }
 }
 
 .whowearebg {
-  background-image: url("/assets/images/mobile-website-binangonan-rural-bank-08-edited.png");
+  background-image: url("/images/mobile-website-binangonan-rural-bank-08-edited.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -36,12 +36,12 @@
 
 @media (min-width: 64em) {
   .whowearebg {
-    background-image: url("/assets/images/website-binangonan-rural-bank-03-edited.png");
+    background-image: url("/images/website-binangonan-rural-bank-03-edited.png");
   }
 }
 
 .ourteambg {
-  background-image: url("/assets/images/mobile-website-binangonan-rural-bank-11.png");
+  background-image: url("/images/mobile-website-binangonan-rural-bank-11.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -50,12 +50,12 @@
 
 @media (min-width: 64em) {
   .ourteambg {
-    background-image: url("/assets/images/website-binangonan-rural-bank-04.png");
+    background-image: url("/images/website-binangonan-rural-bank-04.png");
   }
 }
 
 .lastbg {
-  background-image: url("/assets/images/mobile-website-binangonan-rural-bank-05.png");
+  background-image: url("/images/mobile-website-binangonan-rural-bank-05.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -64,12 +64,12 @@
 
 @media (min-width: 64em) {
   .lastbg {
-    background-image: url("/assets/images/website-binangonan-rural-bank-05.png");
+    background-image: url("/images/website-binangonan-rural-bank-05.png");
   }
 }
 
 .depositbg {
-  background-image: url("/assets/images/addlbg1.png");
+  background-image: url("/images/addlbg1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -77,7 +77,7 @@
 }
 
 .missionbg {
-  background-image: url("/assets/images/addlbg2.png");
+  background-image: url("/images/addlbg2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -85,7 +85,7 @@
 }
 
 .certdeptbg {
-  background-image: url("/assets/images/addlbg3.png");
+  background-image: url("/images/addlbg3.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -93,7 +93,7 @@
 }
 
 .featurebg {
-  background-image: url("/assets/images/addlbg4.png");
+  background-image: url("/images/addlbg4.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
