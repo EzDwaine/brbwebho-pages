@@ -12,7 +12,7 @@
         // flex: 1;
         // order: 1;
         // position: relative;
-        // background-image: url("//images/circle_brb_logo.png");
+        // background-image: url("assets/images/circle_brb_logo.png");
         // background-size: contain;
         // background-position: center center;
         // background-repeat: no-repeat;
@@ -20,14 +20,14 @@
         // min-height: 700px;
         // flex: 1;
         flex: 1 0 50%;
-        background-image: url("//images/circle_brb_logo.png");
+        background-image: url("assets/images/circle_brb_logo.png");
         background-size: contain;
         background-position: center center;
         background-repeat: no-repeat;
         min-height: 15.4375rem;
 
         @include breakpoint-up(large) {
-            background-image: url("//images/brb-logo1.png");
+            background-image: url("assets/images/brb-logo1.png");
             min-height: 31.875rem;
         }
     }
